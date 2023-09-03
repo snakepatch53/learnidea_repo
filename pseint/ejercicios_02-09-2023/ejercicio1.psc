@@ -3,10 +3,11 @@ Algoritmo ejercicio1
 	// de 3 digitos ingresados por el usuario
 	Definir _x, _y, aux Como Entero
 	
-	Hacer 
+	Hacer
 		Escribir "Ingrese el primer número de 3 digitos: "
 		Leer _x
 	Hasta Que _x > 99 Y _x < 1000
+	
 	
 	Hacer 
 		Escribir "Ingrese el segundo número de 3 digitos: "
