@@ -1,8 +1,7 @@
 Algoritmo ejercicio6
 	// DADO UN NUMERO NATURAL x, ENCONTRAR LA CANTIDAD DE DIGITOS
 	// QUE POSEE
-	Definir num, digitos Como Entero
-	Escribir "Ingrese un número: " Sin Saltar
+	Escribir "Ingrese un número: "
 	Leer num
 	digitos = 0
 	Mientras num > 0 Hacer

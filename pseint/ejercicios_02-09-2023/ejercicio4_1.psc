@@ -4,7 +4,6 @@ Algoritmo ejercicio4_1
 	Escribir "¿Cuantos numeros va a ingresar?"
 	Leer n_numeros
 	Dimension v_principal[n_numeros]
-	
 	Escribir "Rellena el vector: "
 	cont_pares = 0
 	// para rellenar y para contar pares e impares
@@ -17,7 +16,6 @@ Algoritmo ejercicio4_1
 	cont_impares = n_numeros - cont_pares
 	Dimension v_pares[cont_pares]
 	Dimension v_impares[cont_impares]
-	
 	// para llenar los vectores pares e impares
 	i_pares = 1
 	i_impares = 1
@@ -30,7 +28,6 @@ Algoritmo ejercicio4_1
 			i_impares = i_impares + 1
 		FinSi
 	FinPara
-	
 	// mostrar los vectores pares e impares
 	Escribir "pares"
 	Para i = 1 Hasta cont_pares Hacer

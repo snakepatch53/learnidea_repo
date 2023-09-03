@@ -3,13 +3,14 @@ Algoritmo ejercicio5
 	Definir binario, digito, decimal, i Como Entero
 	Escribir "Ingrese un numero binario: " Sin Saltar
 	Leer binario
+	i = 0
 	aux = 1
 	decimal = 0
 	Mientras binario > 0
-		digito  = binario % 10
+		digito  = binario MOD 10
 		binario = TRUNC(binario / 10)
 		decimal = decimal + digito * (2 ^ i)
-		i = i+1
+		i = i + 1
 	FinMientras
 	Escribir "En decimal: ",decimal
 FinAlgoritmo
